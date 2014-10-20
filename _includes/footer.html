@@ -3,16 +3,15 @@
         <div class="footer-below">
             <div class="container">
                 <div class="row">
-                    <div class="copyright">
-                        <div class="col-lg-8">
-
-                                Copyright &copy; {{ site.title }} 20{{ site.time | date: '%y' }}
-                        </div>
-                        <div class="col-lg-4">
+                    <div class="copyright text-center">
+                        <p>
                             {% for network in site.social %}
                             <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                             {% endfor %}
-                        </div>
+                        </p>
+                        <p>
+                            Copyright &copy; {{ site.title }} 20{{ site.time | date: '%y' }}
+                        </p>
                     </div>
                 </div>
             </div>
