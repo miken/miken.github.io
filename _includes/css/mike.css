@@ -1,0 +1,11 @@
+header {
+  background: url("img/palackultury.jpg") no-repeat center top scroll;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.navbar-default {
+  background-color: transparent;
+}
