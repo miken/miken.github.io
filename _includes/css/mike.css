@@ -9,3 +9,32 @@ header {
 .navbar-default {
   background-color: transparent;
 }
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+  color: #{{ site.color.primary }};
+}
+
+/* Navigation button in mobile view */
+.navbar-default .navbar-toggle {
+  border-color: #{{ site.color.primary }};
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #{{ site.color.primary }};
+}
+
+/* Scroll top button in mobile view */
+.scroll-top .btn {
+  padding: 8px 0;
+}
+
+/* Add color in when scrolling navbar down */
+.navbar-shrink {
+  background-color: #EBE7E0;
+}
+
+section.success {
+  background-color: white;
+  color: #{{ site.color.primary }};
+}
