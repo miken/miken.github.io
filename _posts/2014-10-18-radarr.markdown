@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 3
+date: 2014-10-18
+img: radarr.png
+alt: image-alt
+project-date: August 2014
+address: http://radarr.herokuapp.com/
+frametech: meteor.js
+description: I developed radarr, a cross-platform mobile app, as a weekend hobby project using a new JavaScript framework, <a href="https://www.meteor.com">Meteor</a>. radarr serves as a directory of local radio stations. It helps traveling listeners locate their favorite stations faster through their phone screens rather than through frequency scans.
+
+---
