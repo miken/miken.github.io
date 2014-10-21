@@ -38,6 +38,7 @@ header {
 /* Add color in when scrolling navbar down */
 .navbar-shrink {
   background-color: #C6D4E1;
+  opacity: 0.8;
 }
 
 
