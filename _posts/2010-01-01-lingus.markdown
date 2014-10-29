@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 9
+img: lingus.png
+alt: image-alt
+project-date: July 2014
+address: http://lingus.meteor.com/
+frametech: meteor.js
+---
+
+I developed an urban-dictionary clone, lingus, using a new JavaScript framework, [Meteor](https://www.meteor.com).

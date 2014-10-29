@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 8
+img: shotify.jpg
+alt: image-alt
+project-date: November 2012
+address: http://shotify.herokuapp.com
+frametech: JavaScript, Shotify Apps API
+---
+
+Shotify was developed by a three-person team in 8 hours at Vampire Hackathon 2012, Boston. Shotify was built with Spotify Apps API. It turns any Spotify playlist into a power-hour drinking game. At the turn of every minute, the playlist will switch songs and the players drink. I designed user experience mock-ups, prioritized specs for development and prepared video pitch and copywriting materials.
