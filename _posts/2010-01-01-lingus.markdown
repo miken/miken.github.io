@@ -8,4 +8,4 @@ address: http://lingus.meteor.com/
 frametech: meteor.js
 ---
 
-I developed an urban-dictionary clone, lingus, using a new JavaScript framework, [Meteor](https://www.meteor.com).
+I developed an urban-dictionary clone, lingus, using a new JavaScript framework, [Meteor](https://www.meteor.com). Multiple users can add, modify, and vote on word definitions and changes will be reflected in real time.

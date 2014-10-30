@@ -8,4 +8,4 @@ address: http://cep-repo.github.io/le-crepe/
 frametech: Jekyll
 ---
 
-During my time at [CEP](http://www.effectivephilanthropy.org), I found it challenging to switch between developing **crepe**, the back-end database API for [surveyresults.org](https://www.surveyresults.org), documenting its functionalities, and training staff on using this API. To make documenting changes and training staff easier, I decide to consolidate all instructions for crepe on a static hosted site powered by [Jekyll](http://jekyllrb.com/). Jekyll simplifies the process of indexing and adding new articles.
+During my time at [CEP](http://www.effectivephilanthropy.org), to facilitate knowledge transfer and minimize record keeping efforts, I developed an online manual for **crepe**, the back-end database API for [surveyresults.org](https://www.surveyresults.org). Using [Jekyll](http://jekyllrb.com/), I can quickly add and index new articles to this documentation guide.
