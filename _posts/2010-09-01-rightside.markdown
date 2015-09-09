@@ -4,7 +4,7 @@ modal-id: 1
 img: rightside.jpg
 alt: image-alt
 project-date: October 2014
-address: http://rightsideshirts-stag.herokuapp.com/
+address: http://rightsideshirts.org/
 frametech: Ruby on Rails
 ---
 
