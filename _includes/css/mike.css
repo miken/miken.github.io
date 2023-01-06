@@ -48,13 +48,18 @@ section {
   padding: 50px 20px;
 }
 
-section.success {
-  background-color: white;
-  color: #{{ site.color.primary }};
+section#about {
+  color: #EBE7E0;
+  background-color: #14323E;
 }
 
 section h2 {
   margin: 50px 0 30px 0;
+}
+
+section#paint-portfolio {
+  background-color: white;
+  color: #14323E;
 }
 
 #portfolio {
