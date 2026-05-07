@@ -1,20 +1,50 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mikengn</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; }
+    body {
+      background: #14110d;
+      color: rgba(239, 231, 214, 0.92);
+      font-family: 'EB Garamond', Georgia, serif;
+      font-style: italic;
+      font-weight: 300;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 7vh;
+    }
+    p {
+      margin: 0;
+      max-width: 36ch;
+      text-align: center;
+      font-size: clamp(18px, 2.0vw, 26px);
+      letter-spacing: 0.005em;
+      line-height: 1.35;
+      text-wrap: pretty;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid currentColor;
+      padding-bottom: 1px;
+    }
+    a:focus-visible {
+      outline: 1px dashed currentColor;
+      outline-offset: 3px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p>chat, I'm locked in. <a href="https://www.linkedin.com/in/mikengn/" target="_blank" rel="noreferrer">linkedin</a> if you must.</p>
+  </main>
+</body>
+</html>
